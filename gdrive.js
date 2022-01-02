@@ -132,7 +132,13 @@ view_changer.addEventListener("click",function(){
         var cont=document.querySelector(".files");
         console.log(cont);
         cont.style.display="flex";
-        table.style.display="none";
+        if(main.querySelector("table") != null){
+            let tab=document.getElementsByTagName('table');
+
+            main.removeChild(tab[0]);
+
+        }
+       
         
     }
 });
