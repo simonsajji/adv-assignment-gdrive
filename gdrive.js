@@ -69,7 +69,7 @@ view_changer.addEventListener("click",function(){
        
         
         let main=document.getElementById("main");
-        let table=document.createElement("table");
+        var table=document.createElement("table");
         if(main.querySelector("table") == null){
 
             main.appendChild(table);
@@ -126,10 +126,10 @@ view_changer.addEventListener("click",function(){
         
     
     }
-    else{
+    else if(changer=="https://simonsajji.github.io/adv-assignment-gdrive/grid_view.png"){
         changer="https://simonsajji.github.io/adv-assignment-gdrive/list_view.png";
         document.getElementById("changer").src=changer;
-        let cont=document.querySelector(".files");
+        var cont=document.querySelector(".files");
         console.log(cont);
         cont.style.display="flex";
         table.style.display="none";
