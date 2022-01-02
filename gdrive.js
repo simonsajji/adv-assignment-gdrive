@@ -60,8 +60,8 @@ let view_changer=document.getElementById("change-view");
 
 view_changer.addEventListener("click",function(){
     let changer=document.getElementById("changer").src;
-    if(changer==="http://127.0.0.1:5500/Advanced-FE-Assignments/assignment-2/list_view.png"){
-        changer="http://127.0.0.1:5500/Advanced-FE-Assignments/assignment-2/grid_view.png";
+    if(changer==="https://simonsajji.github.io/adv-assignment-gdrive/list_view.png"){
+        changer="https://simonsajji.github.io/adv-assignment-gdrive/grid_view.png";
         document.getElementById("changer").src=changer;
         let cont=document.querySelector(".files");
         console.log(cont);
@@ -127,7 +127,7 @@ view_changer.addEventListener("click",function(){
     
     }
     else{
-        changer="http://127.0.0.1:5500/Advanced-FE-Assignments/assignment-2/list_view.png";
+        changer="https://simonsajji.github.io/adv-assignment-gdrive/list_view.png";
         document.getElementById("changer").src=changer;
         let cont=document.querySelector(".files");
         console.log(cont);
