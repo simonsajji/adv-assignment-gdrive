@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Baloo+Bhaijaan+2&family=Comfortaa&family=Concert+One&family=Dosis:wght@300&family=Genos:wght@300&family=Lato&family=Montserrat:wght@300&family=Pacifico&family=Permanent+Marker&family=Special+Elite&family=Voltaire&display=swap');
+body{
+    margin:0;
+    border:0;
+    padding:0;
+    background-color:rgb(245, 244, 244);
+    flex-wrap:wrap;
+    
+}
+/* Header Part */
+header{
+   
+    height:10vh;
+    width:100vw;
+    display:flex;
+    border:2px solid grey;
+    border:0;
+    gap:2rem;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 0.2rem 0.3rem 0.5rem 0.1rem rgba(124, 122, 122, 0.6) ;
+    
+}
+
+header #title{
+    flex:2;
+    
+    display:flex;
+    flex-direction: row;
+    gap:0.5em;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+#title h2{
+    align-items: center;
+    text-align: left;
+   flex:2;
+    margin-right:0px;
+    margin:0;
+    opacity:0.5;
+   
+    
+}
+h2:first-letter{
+    color:rgb(168, 14, 14);
+    opacity:1;
+    font-style:oblique;
+    letter-spacing: 0.2rem;
+}
+#title #ima{
+    flex:0.8;
+    text-align: right;
+    
+}
+
+#title img{
+    width:60%;
+    height:50%;
+    
+}
+header #inp{
+    flex:4;
+    display:flex;
+    align-items:center;
+    gap:0;
+    
+   
+}
+
+#inp input{
+    width:95%;
+    height:65%;
+    margin:0.6em 0.8rem;
+    margin-right:0;
+    font-size: 1rem;
+    border:0;
+    border-radius:0.5rem;
+    border-top-right-radius:0;
+    border-bottom-right-radius:0;
+    background-color:rgba(185, 181, 181, 0.35);
+    opacity:0.9;
+    padding-left:0.8rem;
+
+}
+#inp button{
+    width:3rem;
+    padding:0.8rem;
+    height:67%;
+    background-color:rgba(185, 181, 181, 0.35);
+    opacity:0.9;
+    border:0;
+    border-top-right-radius:0.5rem;
+    border-bottom-right-radius:0.5rem;
+
+}
+
+.no-outline:focus{
+    outline:none;
+}
+
+button img{
+    width:90%;
+    height:95%;
+}
+header #icons{
+    flex:2;
+   
+    align-items: center;
+    justify-content: right;
+    gap:2rem;
+    display: flex;
+    margin-right:2rem;
+  
+
+    
+    
+
+}
+#icons img{
+
+    height:35%;
+}
+
+#prof_i{
+    border:0;
+    border-radius:50%;
+    width:2.2rem;
+    height:2.2rem;
+    background-color: rgba(70, 40, 12, 0.8);
+    font-size:1.2rem;
+    line-height: 2.5rem;
+    color:white;
+    text-align:center;
+}
+
+/* Content Part */
+
+
+
+.content{
+    height:90vh;
+    width:100vw;
+
+    display: flex;
+    
+
+}
+
+.content #menu{
+    flex:0.6;
+
+    flex-direction: row;
+   
+
+}
+#menu .menu-item{
+    width:92%;
+    text-align: justify;
+    font-size: 0.9rem;
+    font-family: 'Comfortaa', cursive;
+    display:flex;
+    height:5%;
+    max-height: 10%;
+    align-items: center;
+    gap:0.8rem;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    font-weight: bolder;
+    
+}
+.empty-space{
+
+    width:90%;
+    height:10%;
+
+
+}
+
+.highlight{
+    background-color:rgba(160, 161, 165, 0.3);
+    border-radius: 0.3rem;
+    width:95%;
+    box-shadow: 0.2rem 0.2rem 0.3rem 0.1rem rgba(177, 173, 173, 0.5) ;
+}
+.menu-item .ima{
+    flex:1;
+    align-items: center;
+    text-align:right;
+   
+}
+
+.ima img{
+    width:40%;
+    height:40%;
+}
+
+.menu-item p{
+   flex:3;
+   margin:0;
+   opacity:0.7;
+}
+
+#dash{
+    width:85%;
+    border:0;
+    border-top: 3px solid rgba(151, 148, 148, 0.4);
+}
+
+
+/* hover animate the menu */
+
+.menu-item:hover{
+    box-shadow: 0.3rem 0.4rem 0.4rem 0 rgba(160, 158, 158,0.5) ;
+    transition: box-shadow 0.6s;
+}
+
+.content #main{
+    flex:3;
+    overflow-y:scroll;
+    height: 100%;
+
+
+   
+    flex-wrap: wrap;
+
+
+    
+}
+
+#main .bar{
+    display:flex;
+    width:100%;
+    align-items: center;
+    border-bottom: 2px solid rgba(182, 180, 180, 0.4);
+    position:sticky;
+    opacity:1;
+    top:0.1rem;
+    margin-top:0.5rem;
+    background-color:rgb(245, 244, 244);
+    border-radius: 0.5rem;
+
+}
+.bar .bar_icons{
+    flex:2;
+    text-align:right;
+    padding-right:1rem;
+    margin-right:1rem;
+
+}
+.bar_icons button{
+    width:2.5rem;
+    height:2rem;
+    background-color:rgb(245, 244, 244);
+    border:0;
+}
+button img{
+    width:90%;
+    height:95%;
+}
+.bar h3{
+    flex:3;
+    margin-left:1rem;
+    font-size:1.2rem;
+    font-family: 'Comfortaa', cursive;
+
+
+}
+#change-view{
+    margin-right: 2rem;
+}
+
+
+.files{
+
+    
+    
+    height:100vh;
+    max-width: 100vw;
+
+    padding:1.2rem;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    
+    
+  
+    
+
+}
+.files .f{
+   
+    
+    flex-basis: 30%;
+    text-align: center;
+   
+  
+    height:20rem;
+    
+    border:0.01rem solid rgba(170, 163, 163,0.5);
+    border-radius: 0.3rem;
+
+}
+
+.f h5{
+    width:calc(100% -2%);
+    margin:0;
+    height:2.6rem;
+    background-color: rgba(206, 206, 206, 0.4);
+    border-radius: 0.3rem;
+    margin-top:76%;
+    text-align: left;
+    margin-left:0;
+    line-height: 2.4rem;
+    padding-left:2%;
+    font-family: 'Lato', sans-serif;
+    font-size:1rem;
+    color:rgba(0, 0, 0, 0.7);
+
+}
+
+
+table{
+    width:90%;
+    margin:2%;
+}
+tr,th{
+    height:2rem;
+    width:20%;
+    max-width:30%;
+    text-align: left;
+    color:rgba(43, 41, 41, 0.7);
+    border-bottom: 0.1rem solid rgba(184, 182, 182, 0.34);
+    font-family: 'Lato', sans-serif;
+    background-color:rgba(255, 255, 255, 0.1);
+    padding-left:0.5rem;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+td{
+    height:1.5rem;
+    width:20%;
+    text-align: left;
+    color:rgba(43, 41, 41, 0.9);
+    border-bottom: 0.1rem solid rgba(184, 182, 182, 0.34);
+    font-family: 'Lato', sans-serif;
+    background-color:rgba(226, 222, 222, 0.1);
+    padding-left:0.5rem;
+    font-size:0.95rem;
+
+}
